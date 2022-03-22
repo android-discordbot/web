@@ -1,0 +1,49 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar-text a {
+  /* background-image: url(./image/background.png); */
+  color: #212529;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  padding-left: 10%;
+}
+
+.carousel-item {
+  min-height: 280px;
+}
+
+body {
+  /* background-image: url(./image/background.png);
+  background-size: cover; */
+  background-color: #f8f9fa;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.card-title {
+  color: #212529;
+}
+
+.card-text {
+  color: #212529;
+}
+
+/* dark mode css */
+.dark-mode {
+  background-color: #212529;
+  color: white;
+}
+
+/* button */
+.button {
+  cursor: pointer;
+}
