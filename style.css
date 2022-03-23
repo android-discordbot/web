@@ -2,12 +2,12 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-.navbar-text a {
-  /* background-image: url(./image/background.png); */
+/* light mode bootstrap class */
+.navbar-light {
   color: #212529;
-}
+} 
 
-.navbar {
+.bg-light {
   background-color: #f8f9fa;
 }
 
@@ -19,6 +19,7 @@
   min-height: 280px;
 }
 
+/* default */
 body {
   /* background-image: url(./image/background.png);
   background-size: cover; */
@@ -35,6 +36,14 @@ section {
 
 .card-text {
   color: #212529;
+}
+
+/* system prefered dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #212529;
+    color: white;
+  }
 }
 
 /* dark mode css */
